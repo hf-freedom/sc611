@@ -1,0 +1,12 @@
+server:
+  port: 8004
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: contract-approval
+
+logging:
+  level:
+    com.contract: DEBUG
